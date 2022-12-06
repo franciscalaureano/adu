@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <title>Create Account</title>
+  </head>
+  <body>
+    <section id="sign up">
+      <div>
+        <h1>Create an Account</h1>
+        <p>To become part of the family</p>
+      </div>
+      <!--First Name-->
+      <form id="signup-form">
+        <div class="input-field">
+          <label>First Name</label>
+          <input type="text" id="first-name" placeholder="Olivia" required />
+        </div>
+        <!--Last Name-->
+        <div class="input-field">
+          <label>Last Name</label>
+          <input type="text" id="last-name" placeholder="Smith" required />
+        </div>
+        <!--E-mail-->
+        <div class="input-field">
+          <label>E-mail address</label>
+          <input
+            type="email"
+            id="signup-email"
+            placeholder="example@email.com"
+            required
+          />
+        </div>
+        <!--E-mail Error-->
+        <div id="emailError"></div>
+
+        <!--Password-->
+        <div class="input-field">
+          <label>Password</label>
+          <input
+            type="password"
+            id="signup-password"
+            placeholder="********"
+            required
+          />
+        </div>
+
+        <!--Confirm Password-->
+        <div class="input-field">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            id="signup-confirm-password"
+            placeholder="********"
+            required
+          />
+        </div>
+
+        <button class="button">Create Account</button>
+      </form>
+    </section>
+  </body>
+</html>
