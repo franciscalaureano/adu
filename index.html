@@ -14,7 +14,7 @@
         <p>To become part of the family</p>
       </div>
       <!--First Name-->
-      <form id="signup-form">
+      <form id="signup-form" class="modal">
         <div class="input-field">
           <label>First Name</label>
           <input type="text" id="first-name" placeholder="Olivia" required />
@@ -59,8 +59,32 @@
           />
         </div>
 
-        <button class="button">Create Account</button>
+        <!--Mobile Phone Number-->
+        <div class="input-field">
+          <label>Phone Number</label>
+          <input
+            type="tel"
+            id="phone-number"
+            placeholder="911 111 111"
+            required
+          />
+        </div>
+
+        <!--Date of Birth-->
+        <div class="input-field">
+          <label>Date of Birth</label>
+          <input type="date" id="birth-date" value="2022-12-06" required />
+        </div>
+
+        <a href="before_starting.html"><p>Create Account</p> </a>
+        <p>Already have an account? <a href="login.html">Login</a> instead!</p>
       </form>
     </section>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.jss"></script>
+
+    <script src="js/firebase.js"></script>
+
+    <script src="js/auth.js"></script>
   </body>
 </html>

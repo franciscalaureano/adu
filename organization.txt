@@ -1,0 +1,10 @@
+sign up pages: 
+1- index.html
+2-
+3- before_starting.html
+4- preferences.html
+5- habilities.html
+6- profile_photo.html
+7-
+8- add_friends.html
+9- all_set.html
