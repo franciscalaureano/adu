@@ -4,38 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/geral/font.css" />
+    <link rel="stylesheet" href="css/geral.css" />
     <link rel="stylesheet" href="css/signup.css" />
     <title>Create Account</title>
   </head>
   <body>
     <section id="sign up">
-      <div>
+      <!--Title-->
+      <div id="account_title_container">
         <h1>Create an Account</h1>
         <p>To become part of the family</p>
       </div>
-      <!--First Name-->
+
       <form id="signup-form" class="modal">
-        <div class="input-field">
-          <label>First Name</label>
-          <input type="text" id="first-name" placeholder="Olivia" required />
+        <!--First Name-->
+        <div class="input-field" id="line1">
+          <div id="first_name">
+            <label>First Name</label>
+            <input
+              type="text"
+              id="first-name"
+              placeholder="ex: Olivia"
+              required
+            />
+          </div>
+          <div id="last_name">
+            <!--Last Name-->
+            <label>Last Name</label>
+            <input
+              type="text"
+              id="last-name"
+              placeholder="ex: Smith"
+              required
+            />
+          </div>
         </div>
-        <!--Last Name-->
-        <div class="input-field">
-          <label>Last Name</label>
-          <input type="text" id="last-name" placeholder="Smith" required />
-        </div>
+
         <!--E-mail-->
         <div class="input-field">
           <label>E-mail address</label>
           <input
             type="email"
             id="signup-email"
-            placeholder="example@email.com"
+            placeholder="ex: example@email.com"
             required
           />
         </div>
+
         <!--E-mail Error-->
-        <div id="emailError"></div>
+        <div class="emailError"></div>
 
         <!--Password-->
         <div class="input-field">
@@ -65,7 +83,7 @@
           <input
             type="tel"
             id="phone-number"
-            placeholder="911 111 111"
+            placeholder="ex: 911 111 111"
             required
           />
         </div>

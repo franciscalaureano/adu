@@ -8,3 +8,10 @@ sign up pages:
 7-
 8- add_friends.html
 9- all_set.html
+
+-----
+Colors:
+Dark Red - #843D3F
+Yellow - #FFCE73
+White - #FAF5F2
+Black - #121213
