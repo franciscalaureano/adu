@@ -26,7 +26,7 @@
     flex-direction: column;
 }
 #login_form label {
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif;
     font-size: 1.3rem;
     padding-bottom: 1vh;
 }
@@ -57,12 +57,12 @@
     width: 100%;
 
     color: #FAF5F2;
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif;
     font-size: 1.8rem;
 }
 #login_submit_container p{
     color: #121213;
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif;
     font-size: 1.3rem;
 
     margin-top: 1.5vh;
