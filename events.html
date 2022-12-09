@@ -2,26 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/geral/font.css" />
-    <link rel="stylesheet" href="css/geral.css" />
-    <link rel="stylesheet" href="css/signup.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/geral/font.css"/>
+    <link rel="stylesheet" href="css/geral.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
     <title>Events</title>
 </head>
 <body>
-<section id="events_list">
-    <!--Bar filter and search-->
-    <div id="filter_search">
-        <button name="filter" type="button" value="Filter">Filter</button>
-        <button>
-            <img src="assets/img/search.png" height="24" width="25" alt="Image of a black magnifying glass"/>
-        </button>
-        <label>
-            <input type="search" name="search" placeholder="Searching for a friend...">
-        </label>
-    </div>
 
+<section id="events_list">
+    <section id="superior_container">
+        <!--Logo-->
+        <img id="logo" src="assets/img/logo.png" height="330" width="341" alt="TEMOS QUE PENSAR NISTO">
+        <!--Account Button-->
+        <img id="account_button" src="assets/img/profile_photo.png" height="116" width="116"
+             alt="TEMOS QUE PENSAR NISTO">
+    </section>
+
+    <section id="header_events_list">
+        <!--Arrow to go back-->
+        <button>
+        <img src="assets/img/arrow_back.png" height="32" width="48" alt="Arrow to go back"/>
+        </button>
+        <!--Title-->
+        <div id="account_title_container">
+            <h1>Events</h1>
+        </div>
+        <!--Bar filter and search-->
+        <div id="filter_search">
+            <button name="filter" type="button" value="Filter">Filter</button>
+            <button>
+                <img src="assets/img/search.png" height="24" width="25" alt="Image of a black magnifying glass"/>
+            </button>
+            <label>
+                <input type="search" name="search" placeholder="Searching for a friend...">
+            </label>
+        </div>
+    </section>
+    <section id="main_events_list">
+        <!--Event Walk-->
+        <div id="event_walk">
+            <img src="assets/img/event_walk.png" height="98" width="583" alt="Image of a group of people of various ages smiling in outdoors"/>
+            <p>04th of december</p>
+            <h4>WALK TO DEFEAT ALS® - NORTHEASTERN</h4>
+            <img src="assets/img/friends_events_list.png" height="38" width="83" alt="Profile pictures of friends attending the event"/>
+            <p>08:30 am - 12:00 am</p>
+            <p>Neuroscience Group Field - Fox Cities Stadium (3 km)</p>
+            <img src="assets/img/accessible_green.png" height="34" width="116" alt="Rectangle with green border saying accessible and with a checkmark"/>
+        </div>
+        <div class="buttons_heart_go_events_list">
+            <img src="assets/img/button_heart.png" height="33" width="36" alt="Button in a shape of heart"/>
+            <img src="assets/img/line_heart_go.png" height="3" width="47" alt="Line-shaped decoration to separate the heart-shaped button and the button that says go"/>
+            <img src="assets/img/button_go.png" height="34" width="34" alt="Button that says go!"/>
+        </div>
+
+        <!--Event Columbus-->
+        <div id="event_columbus">
+            <img src="assets/img/event_columbus.png" height="98" width="583" alt="Image of a happy family sitting at a table in indoors"/>
+            <p>15th of december</p>
+            <h4>FREE SUNDAYS AT THE COLUMBUS MUSEUM OF ART</h4>
+            <img src="assets/img/friends_events_list.png" height="38" width="83" alt="Profile pictures of friends attending the event"/>
+            <p>03:00 pm - 05:00 pm</p>
+            <p>Columbus Museum of Art (5 km)</p>
+            <img src="assets/img/accessible_red.png" height="34" width="139" alt="Rectangle with red border saying accessible and with a checkmark"/>
+        </div>
+        <div class="buttons_heart_go_events_list">
+            <img src="assets/img/button_heart.png" height="33" width="36" alt="Button in a shape of heart"/>
+            <img src="assets/img/line_heart_go.png" height="3" width="47" alt="Line-shaped decoration to separate the heart-shaped button and the button that says go"/>
+            <img src="assets/img/button_go.png" height="34" width="34" alt="Button that says go!"/>
+        </div>
+
+        <!--FALTA A SETA DE ANDAR PARA BAIXO-->
+
+    </section>
+    <section id="section_nav_container">
+        <nav id="nav_container">
+            <div class="nav_option_container" id="nav_friends_container">
+                <img src="assets/img/friends_icon.png" height="96" width="149"
+                     alt="TEMOS QUE PENSAR NISTO">
+                <p>Friends</p>
+            </div>
+            <div class="nav_option_container" id="nav_home_container">
+                <img src="assets/img/home_icon.png" height="124" width="111"
+                     alt="TEMOS QUE PENSAR NISTO">
+                <p>Home</p>
+            </div>
+            <div class="nav_option_container">
+                <img src="assets/img/settings_icon.png" height="124" width="124"
+                     alt="TEMOS QUE PENSAR NISTO">
+                <p>Settings</p>
+            </div>
+        </nav>
+    </section>
 </section>
 </body>
 </html>
