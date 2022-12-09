@@ -48,7 +48,7 @@ friendsSuggestion_button.addEventListener("click", function (){
 //Event Button--------------------
 var events_button = document.getElementById("events_button");
 events_button.addEventListener("click", function (){
-    window.location.replace("index.html"); //MUDAR ESTA PÁGINA!
+    window.location.replace("events.html");
 }, true);
 
 //My Pages Button--------------------

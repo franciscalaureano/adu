@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,7 +65,7 @@
       <updated>1670347675244</updated>
       <workItem from="1670347676890" duration="2677000" />
       <workItem from="1670601513309" duration="732000" />
-      <workItem from="1670602784043" duration="13237000" />
+      <workItem from="1670602784043" duration="19997000" />
     </task>
     <servers />
   </component>
@@ -83,6 +85,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670628465670">
+      <screen x="0" y="25" width="1440" height="823" />
+    </state>
+    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.823@0.25.1440.823" timestamp="1670628465670" />
+    <state x="560" y="364" key="NewPhpFileDialog" timestamp="1670623790549">
+      <screen x="0" y="25" width="1440" height="823" />
+    </state>
+    <state x="560" y="364" key="NewPhpFileDialog/0.25.1440.823@0.25.1440.823" timestamp="1670623790549" />
     <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670612745426">
       <screen x="0" y="25" width="1440" height="823" />
     </state>
