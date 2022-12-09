@@ -17,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,7 +61,7 @@
       <updated>1670347675244</updated>
       <workItem from="1670347676890" duration="2677000" />
       <workItem from="1670601513309" duration="732000" />
-      <workItem from="1670602784043" duration="2441000" />
+      <workItem from="1670602784043" duration="4633000" />
     </task>
     <servers />
   </component>
@@ -81,9 +81,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670603629773">
+    <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670606379729">
       <screen x="0" y="25" width="1440" height="823" />
     </state>
-    <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1670603629773" />
+    <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1670606379729" />
   </component>
 </project>
