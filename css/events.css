@@ -151,13 +151,13 @@
     display: flex;
 }
 
-#div_seta_descer{
+/*#div_seta_descer{
     width: 100%;
-}
+}*/
 #seta_descer {
     position: fixed;
-    padding: 0 1.5vh;
-    /*margin-left: 2vw;
-    margin-top: 71vh;*/
+    /*padding: 0 1.5vh;*/
+    margin-left: 2vw;
+    /*margin-top: 71vh;*/
 }
 
