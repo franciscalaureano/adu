@@ -1,30 +1,46 @@
 //MUDAR A IMAGEM DO BUTTON GO!
 let buttons_go = document.getElementsByClassName('button_go');
 let clique1 = true;
-for( let i=0; i<buttons_go.length; i++){
-    buttons_go[i].addEventListener('click', function(){
+    buttons_go[0].addEventListener('click', function(){
     clique1 = !clique1;
         if(clique1){
-            buttons_go[i].src = "assets/img/button_go.png";
+            buttons_go[0].src = "assets/img/button_go.png";
         } else {
-            buttons_go[i].src = "assets/img/button_go_black.png";
+            buttons_go[0].src = "assets/img/button_go_black.png";
         }
     })
-}
+let clique2 = true;
+    buttons_go[1].addEventListener('click', function(){
+
+        clique2 = !clique2;
+        if(clique2){
+            buttons_go[1].src = "assets/img/button_go.png";
+        } else {
+            buttons_go[1].src = "assets/img/button_go_black.png";
+        }
+    })
+
 
 //MUDAR A IMAGEM DO BUTTON CORACAO
 let buttons_heart = document.getElementsByClassName('button_heart');
-let clique2 = true;
-for( let i=0; i<buttons_heart.length; i++){
-    buttons_heart[i].addEventListener('click', function(){
-        clique2 = !clique2;
-        if(clique2){
-            buttons_heart[i].src = "assets/img/button_heart.png";
+let clique3 = true;
+    buttons_heart[0].addEventListener('click', function(){
+        clique3 = !clique3;
+        if(clique3){
+            buttons_heart[0].src = "assets/img/button_heart.png";
         } else {
-            buttons_heart[i].src = "assets/img/button_heart_black.png";
+            buttons_heart[0].src = "assets/img/button_heart_black.png";
         }
     })
-}
+let clique4 = true;
+buttons_heart[1].addEventListener('click', function(){
+    clique4 = !clique4;
+    if(clique4){
+        buttons_heart[1].src = "assets/img/button_heart.png";
+    } else {
+        buttons_heart[1].src = "assets/img/button_heart_black.png";
+    }
+})
 
 //CLICAR NO BOTÃO DA SETA PARA ANDAR PARA TRÁS
 let button_arrow_back = document.getElementById('button_arrow_back');
