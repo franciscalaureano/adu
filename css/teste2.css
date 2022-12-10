@@ -1,0 +1,30 @@
+body{
+    overflow-y: hidden;
+}
+#main_container{ /*div_por cima_info_evento*/
+    display: flex;
+    justify-content: center;
+
+    height: 400px;
+}
+
+#p_container{ /*info_evento*/
+    background-color: #843D3F;
+    color: #FAF5F2;
+    width: 500px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 10vw 4vh 10vw ;
+
+    overflow: scroll;
+}
+#p_container p{
+    margin: 0;
+}
+#main{
+    border: #121213 1px solid;
+    height: 400px;
+}
