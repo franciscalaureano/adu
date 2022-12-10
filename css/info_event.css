@@ -50,6 +50,14 @@
     padding-right: 1vw;
 }
 
+#titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+
 #descricao h3 {
     padding-top: 5vh;
 }
@@ -89,7 +97,13 @@
     padding-left: 1vw;
 }
 
-#acessibilidade ul li {
+#acessibilidade_verde p {
+    font-family: Inter-Regular;
+    color: #317262;
+    font-size: 13pt;
+}
+
+#lista p {
     font-family: Inter-Regular;
     color: black;
     font-size: 13pt;
