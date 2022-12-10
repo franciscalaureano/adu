@@ -5,14 +5,18 @@
 }
 #arrow_back_title_container{
     display: flex;
-}
-#arrow_back_title_container {
     padding: 4vh 0 2vh 0;
+    justify-content: center;
 }
 
 #arrow_back_title_container h1 {
     color: #843d3f;
     font-size: 3rem;
+}
+#button_arrow_back{
+    position: fixed;
+    left: 12vw;
+    top: 15vh;
 }
 #filter_search{
     display: flex;
