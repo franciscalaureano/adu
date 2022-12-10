@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/habilities1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/add_friends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/all_set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/before_starting.html" beforeDir="false" afterPath="$PROJECT_DIR$/before_starting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preferences.html" beforeDir="false" afterPath="$PROJECT_DIR$/preferences.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile_photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registo_teste.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,6 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -46,6 +56,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/assets/img" />
@@ -89,6 +102,10 @@
       <screen x="0" y="25" width="1440" height="823" />
     </state>
     <state x="560" y="364" key="NewPhpFileDialog/0.25.1440.823@0.25.1440.823" timestamp="1670623790549" />
+    <state x="0" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1670686830931">
+      <screen x="0" y="25" width="1440" height="823" />
+    </state>
+    <state x="0" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1440.823@0.25.1440.823" timestamp="1670686830931" />
     <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670612745426">
       <screen x="0" y="25" width="1440" height="823" />
     </state>

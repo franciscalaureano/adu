@@ -26,7 +26,7 @@
 }
 
 #signup-form label {
-  font-family: Inter-Regular;
+  font-family: Inter-Regular, sans-serif;
   font-size: 1.3rem;
   padding-bottom: 1vh;
 }
@@ -74,6 +74,8 @@
   color: #FAF5F2;
   font-family: Inter-Regular, sans-serif;
   font-size: 1.8rem;
+
+  cursor: pointer;
 }
 #signup_submit_container p{
   color: #121213;

@@ -17,7 +17,7 @@
         <p>To become part of the family</p>
     </div>
 
-    <form method="post" action="registo_teste.php" id="signup-form" class="modal">
+    <form method="post" action="signup.php" id="signup-form" class="modal">
         <!--First Name-->
         <div class="input-field" id="line1">
             <div id="first_name">
@@ -143,7 +143,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['password'] = $_POST['signup-password'];
 
             echo '<script>console.log('.$_SESSION["email"].')</script>';
-            header('Location: login.php');
+            header('Location: before_starting.html');
         } else {
             echo '<script>document.getElementsByClassName("passwordConfirmError")[0].style.display = "block"</script>';
         }
