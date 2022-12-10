@@ -29,16 +29,20 @@
 
 h1 {
   font-family: PlayfairDisplay-Bold;
+  font-weight: 700;
 }
 
 h2 {
   font-family: PlayfairDisplay-SemiBold;
+  font-weight: 600;
 }
 
 h3 {
   font-family: Inter-SemiBold;
+  font-weight: 600;
 }
 
 p {
   font-family: Inter-Regular;
+  font-weight: 400;
 }

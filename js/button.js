@@ -58,4 +58,3 @@ myPages_button.addEventListener("click", function (){
     window.location.replace("index.html"); //MUDAR ESTA PÁGINA!
 }, true);*/
 
-

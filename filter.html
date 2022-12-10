@@ -10,53 +10,64 @@
     <title>Filter</title>
 </head>
 <body>
-<section id="filterPopUp">
-    <img src="assets/img/cruzFilter.png" height="204" width="204" alt="close_filter">
-    <h2>Filter</h2>
-    <p>Order</p>
-    <div id="descendingDate_button" class="filterButtonSelected">
-        <p>Descending Date</p>
-    </div>
-    <div id="risingDate_button" class="filterButtonUnSelected">
-        <p>Rising Date</p>
-    </div>
-    <div id="shorterDistance_button" class="filterButtonUnSelected">
-        <p>Shorter Distance</p>
-    </div>
-    <div id="greaterDate_button" class="filterButtonUnSelected">
-        <p>Greater Date</p>
-    </div>
-    <p>Categories</p>
-    <div id="visualArts_button" class="filterButtonUnSelected">
-        <p>Viual Arts</p>
-    </div>
-    <div id="comedy_button" class="filterButtonUnSelected">
-        <p>Comedy</p>
-    </div>
-    <div id="food_button" class="filterButtonUnSelected">
-        <p>Food</p>
-    </div>
-    <div id="fitness_button" class="filterButtonUnSelected">
-        <p>Fitness</p>
-    </div>
-    <div id="party_button" class="filterButtonUnSelected">
-        <p>Party</p>
-    </div>
-    <div id="music_button" class="filterButtonUnSelected">
-        <p>Music</p>
-    </div>
-    <div id="theatre_button" class="filterButtonUnSelected">
-        <p>Theatre</p>
-    </div>
-    <div id="televisionCinema_button" class="filterButtonUnSelected">
-        <p>Television/Cinema</p>
-    </div>
-    <div id="als_button" class="filterButtonUnSelected">
-        <p>ALS</p>
-    </div>
-    <div id="online_button" class="filterButtonUnSelected">
-        <p>Online</p>
-    </div>
-</section>
+<div id="filterPopUpContainer">
+    <section id="filterPopUp">
+        <div id="closeFilterContainer">
+            <img src="assets/img/cruzFilter.png" height="204" width="204" alt="close_filter">
+        </div>
+        <div id="filterTitle_container">
+            <h2>Filter</h2>
+        </div>
+        <h3>Order</h3>
+        <section id="filter_container">
+            <div id="descendingDate_button" class="filterButtonSelected filterButton">
+                <p>Descending Date</p>
+            </div>
+            <div id="risingDate_button" class="filterButton">
+                <p>Rising Date</p>
+            </div>
+            <div id="shorterDistance_button" class="filterButton">
+                <p>Shorter Distance</p>
+            </div>
+            <div id="greaterDate_button" class="filterButton">
+                <p>Greater Date</p>
+            </div>
+        </section>
+        <h3>Categories</h3>
+        <section id="categories_container">
+            <div id="visualArts_button" class="filterButton">
+                <p>Viual Arts</p>
+            </div>
+            <div id="comedy_button" class="filterButton">
+                <p>Comedy</p>
+            </div>
+            <div id="food_button" class="filterButton">
+                <p>Food</p>
+            </div>
+            <div id="fitness_button" class="filterButton">
+                <p>Fitness</p>
+            </div>
+            <div id="party_button" class="filterButton">
+                <p>Party</p>
+            </div>
+            <div id="music_button" class="filterButton">
+                <p>Music</p>
+            </div>
+            <div id="theatre_button" class="filterButton">
+                <p>Theatre</p>
+            </div>
+            <div id="televisionCinema_button" class="filterButton">
+                <p>Television/Cinema</p>
+            </div>
+            <div id="als_button" class="filterButton">
+                <p>ALS</p>
+            </div>
+            <div id="online_button" class="filterButton">
+                <p>Online</p>
+            </div>
+        </section>
+    </section>
+</div>
+<script src="js/musicButton.js"></script>
 </body>
 </html>

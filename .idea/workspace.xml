@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/geral/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/geral/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/filter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -62,7 +67,7 @@
       <updated>1670347675244</updated>
       <workItem from="1670347676890" duration="2677000" />
       <workItem from="1670601513309" duration="732000" />
-      <workItem from="1670602784043" duration="21780000" />
+      <workItem from="1670602784043" duration="25834000" />
     </task>
     <servers />
   </component>
