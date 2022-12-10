@@ -1,0 +1,25 @@
+#filterPopUp{
+    padding: 4vh 10vw 0 10vw;
+    background: #FAF5F2;
+    box-shadow: 0 0 7px 3px rgba(132, 61, 63, 0.3);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#filterPopUp > img{
+    height: 2rem;
+    width: auto;
+}
+.filterButtonSelected{
+    background-color: #121213;
+    color: #FAF5F2;
+}
+.filterButtonUnSelected{
+    background-color: #FAF5F2;
+    color: #121213;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
