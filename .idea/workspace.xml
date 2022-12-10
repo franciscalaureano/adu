@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/habilities1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/add_friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/add_friends.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/all_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/all_set.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/before_starting.html" beforeDir="false" afterPath="$PROJECT_DIR$/before_starting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/all_set.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all_set.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/habilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/habilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/profile_photo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile_photo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities1.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities2.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities3.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities4.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities5.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities6.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habilities7.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preferences.html" beforeDir="false" afterPath="$PROJECT_DIR$/preferences.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile_photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registo_teste.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +109,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670628465670">
-      <screen x="0" y="25" width="1440" height="823" />
+    <state x="708" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670706615822">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.823@0.25.1440.823" timestamp="1670628465670" />
-    <state x="560" y="364" key="NewPhpFileDialog" timestamp="1670623790549">
-      <screen x="0" y="25" width="1440" height="823" />
+    <state x="708" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1670706615822" />
+    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.823@0.25.1440.823" timestamp="1670706343056" />
+    <state x="560" y="371" key="NewPhpFileDialog" timestamp="1670706784123">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="560" y="371" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1670706784123" />
     <state x="560" y="364" key="NewPhpFileDialog/0.25.1440.823@0.25.1440.823" timestamp="1670623790549" />
     <state x="0" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1670686830931">
       <screen x="0" y="25" width="1440" height="823" />

@@ -59,6 +59,14 @@
     border-radius: 10px;
 
     text-align: center;
+    cursor: pointer;
+}
+.hability_answer_container_selected{
+    background: #843D3F;
+    border: 2px solid #843D3F;
+    color: #FAF5F2;
+
+    cursor: pointer;
 }
 .buttons{
     padding: 4vh 10vw 0 10vw;
@@ -67,15 +75,13 @@
     flex-direction: row;
     justify-content: space-between;
 }
-#buttons{
-    padding: 32.8vh 10vw 0 10vw;
-}
+
 .button_container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.skip_button, .continue_button{
+#skip_button, #continue_button{
     background: #FAF5F2;
     border: 2px solid #843D3F;
     border-radius: 10px;
@@ -86,7 +92,7 @@
     font-family: Inter-Regular, sans-serif;
     font-size: 1.8rem;
 }
-.continue_button{
+#continue_button{
     display: none;
     background: #843D3F;
     color: #FAF5F2;

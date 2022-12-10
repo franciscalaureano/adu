@@ -17,7 +17,7 @@
         <p>To become part of the family</p>
     </div>
 
-    <form method="post" action="signup.php" id="signup-form" class="modal">
+    <form method="post" action="index.php" id="signup-form" class="modal">
         <!--First Name-->
         <div class="input-field" id="line1">
             <div id="first_name">
@@ -141,6 +141,8 @@ if (isset($_POST['submit'])) {
         if ($password == $confirmPassword) {
             $_SESSION['email'] = $_POST['signup-email'];
             $_SESSION['password'] = $_POST['signup-password'];
+
+            $_SESSION['name'] = $_POST['first-name'];
 
             echo '<script>console.log('.$_SESSION["email"].')</script>';
             header('Location: before_starting.html');

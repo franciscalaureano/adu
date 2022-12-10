@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,66 +8,89 @@
     <link rel="stylesheet" href="css/geral.css"/>
     <link rel="stylesheet" href="css/habilities.css"/>
     <title>What can you do?</title>
-  </head>
-  <body>
-  <div class="bar_container">
+</head>
+<body>
+<div class="bar_container">
     <img src="assets/img/barra2.png" height="24" width="2600" alt="Sequence Bar">
-  </div>
-  <section class="title">
+</div>
+<section class="title">
     <h1>What can you do?</h1>
     <p>Select just one answer per question...</p>
-  </section>
+</section>
 
-  <section class="main_container">
+<section class="main_container">
     <p class="title_main_container">3. Swallowing:</p>
-    <div class="hability_answer_container">
-      <p>Normal eating habits</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Early eating problems; occasional choking</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Dietary consistency changes</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Needs supplemental tube feedings</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Nothing by mouth; exclusively parenteral or enteral feeding</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Not apply</p>
-    </div>
-  </section>
+    <button class="hability_answer_container">
+        Normal eating habits
+    </button>
+    <button class="hability_answer_container">
+        Early eating problems; occasional choking
+    </button>
+    <button class="hability_answer_container">
+        Dietary consistency changes
+    </button>
+    <button class="hability_answer_container">
+        Needs supplemental tube feedings
+    </button>
+    <button class="hability_answer_container">
+        Nothing by mouth; exclusively parenteral or enteral feeding
+    </button>
+    <button class="hability_answer_container">
+        Not apply
+    </button>
+</section>
 
-  <section class="main_container">
+<section class="main_container">
     <p class="title_main_container">4. Handwriting:</p>
-    <div class="hability_answer_container">
-      <p>Normal</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Slow or sloppy; all words are legible</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Not all words are legible</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Able to grip pen but unable to write</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Unable to grip pen</p>
-    </div>
-    <div class="hability_answer_container">
-      <p>Not apply</p>
-    </div>
-  </section>
-  <section class="buttons">
+    <button class="hability_answer_container">
+        Normal
+    </button>
+    <button class="hability_answer_container">
+        Slow or sloppy; all words are legible
+    </button>
+    <button class="hability_answer_container">
+        Not all words are legible
+    </button>
+    <button class="hability_answer_container">
+        Able to grip pen but unable to write
+    </button>
+    <button class="hability_answer_container">
+        Unable to grip pen
+    </button>
+    <button class="hability_answer_container">
+        Not apply
+    </button>
+</section>
+<section class="buttons">
     <div class="button_container">
-      <button class="skip_button" type="submit" name="submit">Skip</button>
+        <button id="skip_button" type="submit" name="submit">Skip</button>
     </div>
     <div class="button_container">
-      <button class="continue_button" type="submit" name="submit">Continue</button>
+        <button id="continue_button" type="submit" name="submit">Continue</button>
     </div>
-  </section>
-  </body>
+</section>
+
+<script>
+    document.getElementById("skip_button").addEventListener("click", function () {
+        window.location.replace("profile_photo.php");
+    }, true);
+
+    document.getElementById("continue_button").addEventListener("click", function () {
+        window.location.replace("habilities3.html");
+        //e guarda informação
+    }, true);
+
+    //Botões com as respostas
+    function selected(e) {
+        e.target.classList.toggle("hability_answer_container_selected");
+        document.getElementById("continue_button").style.display = "block";
+
+    }
+
+    const buttons = document.querySelectorAll(".hability_answer_container");
+    buttons.forEach((item) => {
+        item.addEventListener("click", selected)
+    });
+</script>
+</body>
 </html>

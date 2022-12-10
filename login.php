@@ -52,7 +52,7 @@
 
 <div id="login_submit_container">
     <button id="login_submit_button" type="submit" form="login_form" name="submit" value="login">Login</button>
-    <p>Don’t have an account? <a href="index.html">Create one</a>!</p>
+    <p>Don’t have an account? <a href="index.php">Create one</a>!</p>
 </div>
 </body>
 </html>

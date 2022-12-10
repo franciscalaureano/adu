@@ -13,28 +13,36 @@
 <section id="home">
     <section id="superior_container">
         <!--Logo-->
-        <img id="logo" src="assets/img/logo.png" height="330" width="341" alt="logotipo da aplicação que diz go out com gradiente amarelo de fundo">
+        <img id="logo" src="assets/img/logo.png" height="330" width="341"
+             alt="logotipo da aplicação que diz go out com gradiente amarelo de fundo">
         <!--Account Button-->
         <img id="account_button" src="assets/img/profile_photo.png" height="116" width="116"
              alt="fotografia de perfil selecionada para a conta pessoal">
+
     </section>
     <!--Title-->
     <div id="account_title_container">
-        <h1>Hi Kika!</h1>
+        <?php
+        session_start();
+        echo "<h1>Hi ".$_SESSION['name']."!</h1>"
+        ?>
     </div>
     <!--Central Part-->
     <section id="central_part_container">
         <div id="daySuggestion_button" class="central_button_container">
             <p>Suggestions of the Day</p>
-            <img src="assets/img/suggestions_day_icon.png" height="400" width="359" alt="um icon em forma de calendário com um círculo a marcar um dia em específico">
+            <img src="assets/img/suggestions_day_icon.png" height="400" width="359"
+                 alt="um icon em forma de calendário com um círculo a marcar um dia em específico">
         </div>
         <div id="futureSuggestion_button" class="central_button_container">
             <p>Future Suggestions</p>
-            <img src="assets/img/future_suggestion_icon.png" height="400" width="365" alt="um icon em forma de calendário com uma seta a apontar para a direita">
+            <img src="assets/img/future_suggestion_icon.png" height="400" width="365"
+                 alt="um icon em forma de calendário com uma seta a apontar para a direita">
         </div>
         <div id="friendsSuggestion_button" class="central_button_container">
             <p>Friends Suggestions</p>
-            <img src="assets/img/friends_suggestions_icon.png" height="400" width="360" alt="um icon em forma de calendário com um duas pessoas e um mais">
+            <img src="assets/img/friends_suggestions_icon.png" height="400" width="360"
+                 alt="um icon em forma de calendário com um duas pessoas e um mais">
         </div>
         <div id="events_button" class="central_button_container">
             <p>Events</p>
