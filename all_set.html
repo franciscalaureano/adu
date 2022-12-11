@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/geral/font.css"/>
+    <link rel="stylesheet" href="css/geral.css"/>
+    <link rel="stylesheet" href="css/all_set.css"/>
+    <title>All Set!</title>
+</head>
+<body>
+<div id="title_container">
     <h1>All set!</h1>
-    <p>You are now officially a part of the family ❤️</p>
-    <a href="home.html"><p>Let's start</p> </a>
-  </body>
+    <p>
+        You are now officially a part of the family ❤
+    </p>
+</div>
+<div id="allSet_container">
+    <button id="allSet_button" type="submit" name="submit">Let's Start</button>
+</div>
+
+<script>
+    document.getElementById("allSet_button").addEventListener("click", function () {
+        window.location.replace("home.php");
+    }, true);
+</script>
+</body>
 </html>

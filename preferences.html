@@ -1,29 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <section id="title">
-      <h1>What do you like doing most?</h1>
-      <p>Select at least one...</p>
-    </section>
-    <!---->
-    <section id="activities">
-      <p>Listening to music</p>
-      <p>Watch a tv show</p>
-      <p>Read a book</p>
-      <p>Eat at a restaurant</p>
-      <p>Drinking wine</p>
-      <p>Going to the disco</p>
-      <p>Play board games</p>
-    </section>
-    <section id="buttons">
-      <a href="habilities.html"><p>Continue</p> </a>
-      <a href="home.html"><p>Skip</p> </a>
-    </section>
-  </body>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/geral/font.css"/>
+    <link rel="stylesheet" href="css/geral.css"/>
+    <link rel="stylesheet" href="css/preferences.css"/>
+    <title>What do you like doing most?</title>
+</head>
+<body>
+<div id="bar_container">
+    <img src="assets/img/barra0.png" height="24" width="2600" alt="Sequence Bar">
+</div>
+<section id="title">
+    <h1>What do you like doing most?</h1>
+    <p>Select at least one...</p>
+</section>
+<!---->
+<section id="activities">
+    <button class="activity_answer_container">
+        Listening to music
+    </button>
+    <button class="activity_answer_container">
+        Going to the movies
+    </button>
+    <button class="activity_answer_container">
+        Watch a tv show
+    </button>
+    <button class="activity_answer_container">
+        Take online classes
+    </button>
+    <button class="activity_answer_container">
+        Eat at a restaurant
+    </button>
+    <button class="activity_answer_container">
+        Watch a comedy show
+    </button>
+    <button class="activity_answer_container">
+        Going to a museum
+    </button>
+    <button class="activity_answer_container">
+        Going to a broadway show
+    </button>
+    <button class="activity_answer_container">
+        Going to ALS events
+    </button>
+    <button class="activity_answer_container">
+        Getting to know new people
+    </button>
+</section>
+<section id="buttons">
+    <div class="button_container">
+        <button id="skip_button" type="submit" name="submit">Skip</button>
+    </div>
+    <div class="button_container">
+        <button id="continue_button" type="submit" name="submit">Continue</button>
+    </div>
+</section>
+
+<!--<section id="skip_popUp">
+    <div id="skip_container">
+        <h3>Skip</h3>
+        <p>You have selected some options. Are you sure you want to skip?</p>
+        <div id="buttons_container">
+            <button id="no_button" type="submit" name="submit">No</button>
+            <button id="yes_button" type="submit" name="submit">Yes</button>
+        </div>
+    </div>
+</section>-->
+
+<script>
+    document.getElementById("skip_button").addEventListener("click", function () {
+        window.location.replace("habilities1.html");
+    }, true);
+
+    document.getElementById("continue_button").addEventListener("click", function () {
+        window.location.replace("habilities1.html");
+        //e guarda informação
+    }, true);
+
+    //Botões com as respostas
+    function selected(e) {
+        e.target.classList.toggle("activity_answer_container_selected");
+        document.getElementById("continue_button").style.display = "block";
+
+    }
+
+    const buttons = document.querySelectorAll(".activity_answer_container");
+    buttons.forEach((item) => {
+        item.addEventListener("click", selected)
+    });
+</script>
+</body>
 </html>

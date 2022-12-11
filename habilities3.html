@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/geral/font.css"/>
+    <link rel="stylesheet" href="css/geral.css"/>
+    <link rel="stylesheet" href="css/habilities.css"/>
+    <title>What can you do?</title>
+</head>
+<body>
+<div class="bar_container">
+    <img src="assets/img/barra3.png" height="24" width="2600" alt="Sequence Bar">
+</div>
+<section class="title">
+    <h1>What can you do?</h1>
+    <p>Select just one answer per question...</p>
+</section>
+
+<section class="main_container">
+    <p class="title_main_container">5. Cutting food and handling utensils (without gastrostomy):</p>
+    <button class="hability_answer_container1">
+        Normal
+    </button>
+    <button class="hability_answer_container1">
+        Somewhat slow and clumsy but no help needed
+    </button>
+    <button class="hability_answer_container1">
+        Can cut most foods although clumsy and slow; some help needed
+    </button>
+    <button class="hability_answer_container1">
+        Food must be cut by someone but can still feed slowly
+    </button>
+    <button class="hability_answer_container1">
+        Needs to be fed
+    </button>
+    <button class="hability_answer_container1">
+        Not apply
+    </button>
+</section>
+
+<section class="main_container">
+    <p class="title_main_container">6. Cutting food and handling utensils (with gastrostomy):</p>
+    <button class="hability_answer_container2">
+        Normal
+    </button>
+    <button class="hability_answer_container2">
+        Clumsy but able to perform all manipulations independently
+    </button>
+    <button class="hability_answer_container2">
+        Some help needed with closures and fasteners
+    </button>
+    <button class="hability_answer_container2">
+        Provides minimal assistance to caregiver
+    </button>
+    <button class="hability_answer_container2">
+        Unable to perform any aspect of task
+    </button>
+    <button class="hability_answer_container2">
+        Not apply
+    </button>
+</section>
+<section class="buttons">
+    <div class="button_container">
+        <button id="skip_button" type="submit" name="submit">Skip</button>
+    </div>
+    <div class="button_container">
+        <button id="continue_button" type="submit" name="submit">Continue</button>
+    </div>
+</section>
+
+<script>
+    document.getElementById("skip_button").addEventListener("click", function () {
+        window.location.replace("profile_photo.php");
+    }, true);
+
+    document.getElementById("continue_button").addEventListener("click", function () {
+        window.location.replace("habilities4.html");
+        //e guarda informação
+    }, true);
+
+    //Botões com as respostas
+/*    function selected(e) {
+        e.target.classList.toggle("hability_answer_container_selected");
+        document.getElementById("continue_button").style.display = "block";
+
+    }
+    const buttons = document.querySelectorAll(".hability_answer_container");
+    buttons.forEach((item) => {
+        item.addEventListener("click", selected)
+    });*/
+
+    var button1 = document.getElementsByClassName('hability_answer_container1')
+    for (var i = 0; i < button1.length; i++) {
+        button1[i].addEventListener("click", function(){
+
+            var selectedEl1 = document.querySelector(".hability_answer_container_selected1");
+            if(selectedEl1){
+                selectedEl1.classList.remove("hability_answer_container_selected1");
+            }
+            this.classList.add("hability_answer_container_selected1");
+            document.getElementById("continue_button").style.display = "block";
+
+        }, false);
+    }
+
+    var button2 = document.getElementsByClassName('hability_answer_container2')
+    for (var j = 0; j < button2.length; j++) {
+        button2[j].addEventListener("click", function(){
+
+            var selectedEl2 = document.querySelector(".hability_answer_container_selected2");
+            if(selectedEl2){
+                selectedEl2.classList.remove("hability_answer_container_selected2");
+            }
+            this.classList.add("hability_answer_container_selected2");
+            document.getElementById("continue_button").style.display = "block";
+
+        }, false);
+    }
+</script>
+</body>
+</html>

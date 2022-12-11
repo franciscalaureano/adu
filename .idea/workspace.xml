@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/teste.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/teste2.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectId" id="2IY9VVM8erFJQBmPkh6IZ84xDw1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="" />
+      <created>1670347675244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670347675244</updated>
+      <workItem from="1670347676890" duration="2677000" />
+      <workItem from="1670601513309" duration="732000" />
+      <workItem from="1670602784043" duration="25834000" />
+      <workItem from="1670755223650" duration="275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670706615822">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="708" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1670706615822" />
+    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.823@0.25.1440.823" timestamp="1670706343056" />
+    <state x="560" y="371" key="NewPhpFileDialog" timestamp="1670706784123">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="560" y="371" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1670706784123" />
+    <state x="560" y="364" key="NewPhpFileDialog/0.25.1440.823@0.25.1440.823" timestamp="1670623790549" />
+    <state x="0" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1670686830931">
+      <screen x="0" y="25" width="1440" height="823" />
+    </state>
+    <state x="0" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1440.823@0.25.1440.823" timestamp="1670686830931" />
+    <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670612745426">
+      <screen x="0" y="25" width="1440" height="823" />
+    </state>
+    <state x="832" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1670612745426" />
+  </component>
+</project>
