@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+body {
+    overflow-y: hidden;
+}
 #event {
     /*margin-top: 5vh;*/
 }
@@ -61,16 +64,34 @@
 }
 
 #seta_descer {
-    position: fixed;
+    position: absolute;
     margin-left: -8vw;
-    margin-top: 72vh;
+    top: 71.5vh;
+    /*border: red 2px solid;*/
+}
+
+#seta_descer2{
+    position: absolute;
+    display: none;
+    margin-left: -8vw;
+    top: 71.5vh;
+    /*border: yellow 2px solid;*/
 }
 
 #seta_subir {
-    position: fixed;
+    position: absolute;
     margin-left: -8vw;
-    margin-top: 72vh;
+    top: 65vh;
     display: none;
+    /*border: orange 2px solid;*/
+}
+
+#seta_subir2 {
+    position: absolute;
+    margin-left: -8vw;
+    top: 71.5vh;
+    display: none;
+    /*border: green 2px solid;*/
 }
 
 #info_card_event {
@@ -147,7 +168,8 @@
 }
 
 #descricao h3 {
-    padding-top: 5vh;
+    padding-top: 1vh;
+    margin-top: 3vh;
 }
 
 #descricao p {
@@ -155,7 +177,8 @@
 }
 
 #mapa h3 {
-    padding-top: 5vh;
+    padding-top: 1vh;
+    margin-top: 3vh;
     padding-bottom: 2vh;
 }
 
@@ -197,60 +220,12 @@
 }
 
 #mais_informacao h3 {
-    padding-top: 5vh;
+    padding-top: 4vh;
     padding-bottom: 2vh;
 }
 
 #mais_informacao p {
-    padding-bottom: 4vh;
+    padding-bottom: 100vh;
     color: black;
 }
 
-#section_nav_container{
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-}
-#nav_container {
-    display: flex;
-    flex-direction: row;
-
-    /* NavigatorSimbra */
-    filter: drop-shadow(0 -2px 7px rgba(18, 18, 19, 0.2));
-}
-.nav_option_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    background: #FAF5F2;
-    width: calc(100%/3);
-    height: auto;
-}
-#nav_home_container{
-    background: #843D3F;
-}
-
-.nav_option_container img{
-    height: 2rem;
-    width: auto;
-    margin: 1vh 0 1vh 0;
-    background-color: transparent;
-}
-#nav_friends_container > img{
-    height: 1.5rem;
-    width: auto;
-}
-.nav_option_container p{
-    color: #121213;
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-bottom: 1vh;
-    background-color: transparent;
-}
-
-#nav_home_container p{
-    color: #FAF5F2;
-}
