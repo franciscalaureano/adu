@@ -1,8 +1,44 @@
 #event {
-    margin-top: 5vh;
+    /*margin-top: 5vh;*/
 }
 
-#title_arrow_event {
+#superior_container {
+    padding: 4vh 5vw 0 5vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo, #account_button{
+    width: 4.5rem;
+    height: auto;
+    flex-direction: column;
+}
+#arrow_back_title_container {
+    display: flex;
+    padding: 4vh 0 3vh 0;
+    justify-content: center;
+}
+
+#arrow_back_title_container h1 {
+    color: #843d3f;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#button_arrow_back {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 10vw;
+    top: 15.5vh;
+}
+
+/*#title_arrow_event {
     display: flex;
     padding: 4vh 0 3vh 0;
     justify-content: center;
@@ -14,7 +50,7 @@
     font-family: Playfair Display, serif;
     font-weight: 700;
     font-size: 3rem;
-}
+}*/
 
 #title_arrow_event a {
     border: none;
@@ -26,14 +62,14 @@
 
 #seta_descer {
     position: fixed;
-    margin-left: 2vw;
-    margin-top: 71vh;
+    margin-left: -8vw;
+    margin-top: 72vh;
 }
 
 #seta_subir {
     position: fixed;
-    margin-left: 2vw;
-    margin-top: 71vh;
+    margin-left: -8vw;
+    margin-top: 72vh;
     display: none;
 }
 
@@ -49,7 +85,7 @@
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 #info_event img {
@@ -164,4 +200,53 @@
     font-family: Inter-Regular;
     color: black;
     font-size: 13pt;
+}
+
+#section_nav_container{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+#nav_container {
+    display: flex;
+    flex-direction: row;
+
+    /* NavigatorSimbra */
+    filter: drop-shadow(0 -2px 7px rgba(18, 18, 19, 0.2));
+}
+.nav_option_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #FAF5F2;
+    width: calc(100%/3);
+    height: auto;
+}
+#nav_home_container{
+    background: #843D3F;
+}
+
+.nav_option_container img{
+    height: 2rem;
+    width: auto;
+    margin: 1vh 0 1vh 0;
+    background-color: transparent;
+}
+#nav_friends_container > img{
+    height: 1.5rem;
+    width: auto;
+}
+.nav_option_container p{
+    color: #121213;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1vh;
+    background-color: transparent;
+}
+
+#nav_home_container p{
+    color: #FAF5F2;
 }

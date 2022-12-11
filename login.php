@@ -67,7 +67,7 @@ if (isset($_POST['submit'])) {
 
     if ($emailLogin != "" && $passwordLogin != "") {
         if (($emailLogin == $_SESSION['email']) && ($passwordLogin == $_SESSION['password'])) {
-            header('Location: home.html');
+            header('Location: home.php');
         } else if (($emailLogin == $_SESSION['email']) && ($passwordLogin != $_SESSION['password'])) {
             //password errada
             echo '<script>document.getElementsByClassName("passwordError")[0].style.display = "block"</script>';

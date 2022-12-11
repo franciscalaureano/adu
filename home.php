@@ -74,5 +74,42 @@
     </section>
 </section>
 <script src="js/button.js"></script>
+<script>
+    //-----------HOME-------------------------------------
+
+    //Suggestion of the Day Button--------------------
+    /*
+    var daySuggestion_button = document.getElementById("daySuggestion_button");
+    daySuggestion_button.addEventListener("click", function (){
+        window.location.replace("index.html"); //MUDAR ESTA PÁGINA!
+    }, true);*/
+
+    //Future Suggestion Button--------------------
+    /*
+    var futureSuggestion_button = document.getElementById("futureSuggestion_button");
+    futureSuggestion_button.addEventListener("click", function (){
+        window.location.replace("index.html"); //MUDAR ESTA PÁGINA!
+    }, true);*/
+
+    //Friends Suggestion Button--------------------
+    /*
+    var friendsSuggestion_button = document.getElementById("friendsSuggestion_button");
+    friendsSuggestion_button.addEventListener("click", function (){
+        window.location.replace("index.html"); //MUDAR ESTA PÁGINA!
+    }, true);*/
+
+    //Event Button--------------------
+    var events_button = document.getElementById("events_button");
+    events_button.addEventListener("click", function (){
+        window.location.replace("events.html");
+    }, true);
+
+    //My Pages Button--------------------
+    /*
+    var myPages_button = document.getElementById("myPages_button");
+    myPages_button.addEventListener("click", function (){
+        window.location.replace("index.html"); //MUDAR ESTA PÁGINA!
+    }, true);*/
+</script>
 </body>
 </html>

@@ -28,7 +28,7 @@
                     name="first-name"
                     placeholder="ex: Olivia"
                     required
-                />
+                >
             </div>
             <div id="last_name">
                 <!--Last Name-->
@@ -52,7 +52,7 @@
                 name="signup-email"
                 placeholder="ex: example@email.com"
                 required
-            />
+            >
         </div>
 
         <!--E-mail Error-->
@@ -67,7 +67,7 @@
                 name="signup-password"
                 placeholder="********"
                 required
-            />
+            >
         </div>
 
         <!--Confirm Password-->
@@ -79,7 +79,7 @@
                 name="signup-confirm-password"
                 placeholder="********"
                 required
-            />
+            >
         </div>
         <!--Confirm Password Error-->
         <div class="passwordConfirmError">
@@ -94,7 +94,7 @@
                 id="phone-number"
                 name="phone-number"
                 placeholder="ex: 911 111 111"
-            />
+            >
         </div>
 
         <!--Date of Birth-->
@@ -102,22 +102,13 @@
             <label>Date of Birth</label>
             <input type="date" id="birth-date" name="birth-date" value="2022-12-06"/>
         </div>
-
-<!--        <input id="login_submit_button" type="submit" name="submit" value="Create Account">
-        <p>Already have an account? <a href="login.html">Login</a> instead!</p>-->
-    </form>
+   </form>
 
     <div id="signup_submit_container">
         <button id="signup_submit_button" type="submit" form="signup-form" name="submit" value="signup">Create Account</button>
         <p>Already have an account? <a href="login.php">Login </a>instead!</p>
     </div>
 </section>
-<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.jss"></script>
-
-<script src="js/firebase.js"></script>
-
-<script src="js/auth.js"></script>
 </body>
 </html>
 

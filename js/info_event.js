@@ -1,5 +1,10 @@
+//SETA PARA TRÁS
+document.getElementById("button_arrow_back").addEventListener("click", function (){
+    window.location.replace("events.html");
+})
+
 //MUDAR A IMAGEM DAS SETAS DESCER E SUBIR
-const seta_descer = document.getElementById('seta_descer');
+var seta_descer = document.getElementById('seta_descer');
 seta_descer.addEventListener('click', function () {
     const seta_subir = document.getElementById("seta_subir").style.display = "block";
     seta_descer = document.getElementById("seta_descer").style.display = "none";
