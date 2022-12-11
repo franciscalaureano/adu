@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/add_friends.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/avatar5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/avatar6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/avatar6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/add_friends.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/add_friends.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/habilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/habilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities1.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities2.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities3.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities4.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities5.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities6.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habilities7.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile_photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/teste.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/teste2.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +67,7 @@
       <workItem from="1670347676890" duration="2677000" />
       <workItem from="1670601513309" duration="732000" />
       <workItem from="1670602784043" duration="25834000" />
+      <workItem from="1670755223650" duration="275000" />
     </task>
     <servers />
   </component>
