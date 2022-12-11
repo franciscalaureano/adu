@@ -34,17 +34,17 @@
         <h3>Select a photo</h3>
         <div id="avatar_container">
             <img id="avatar1" src="assets/img/avatar1.png" height="400" width="400"
-                 alt="avatar 1: ilustração de uma mulher loira com coroa de flores e olhos em forma de coração">
+                 alt="avatar 1: illustration of a blonde woman with flower crown and heart-shaped eyes">
             <img id="avatar2" src="assets/img/avatar2.png" height="400" width="400"
-                 alt="avatar 2: ilustração de uma mulher com carapuço preto">
+                 alt="avatar 2: illustration of a woman in a black hood">
             <img id="avatar3" src="assets/img/avatar3.png" height="400" width="400"
-                 alt="avatar 3: ilustração de um homem ruivo com cabelo rapado">
+                 alt="avatar 3: illustration of a red-haired man with shaved hair">
             <img id="avatar4" src="assets/img/avatar4.png" height="400" width="400"
-                 alt="avatar 4: ilustração de um homem com cabelo encaracolado castanho">
+                 alt="avatar 4: illustration of a man with brown curly hair">
             <img id="avatar5" src="assets/img/avatar5.png" height="400" width="400"
-                 alt="avatar 5: ilustração de um homem loiro com cabelo comprido">
+                 alt="avatar 5: illustration of a blond man with long hair">
             <img id="avatar6" src="assets/img/avatar6.png" height="400" width="400"
-                 alt="avatar 6: ilustração de uma mulher com cabelo encaracolado castanho comprido; tem uma fita azul">
+                 alt="avatar 6: illustration of a woman with long brown curly hair; has a blue ribbon">
         </div>
         <section class="buttons_popUp">
             <div class="button_container_popUp">

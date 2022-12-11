@@ -14,10 +14,10 @@
     <section id="superior_container">
         <!--Logo-->
         <img id="logo" src="assets/img/logo.png" height="330" width="341"
-             alt="logotipo da aplicação que diz go out com gradiente amarelo de fundo">
+             alt="application logo with yellow gradient background that says go out">
         <!--Account Button-->
         <img id="account_button" src="assets/img/profile_photo.png" height="116" width="116"
-             alt="fotografia de perfil selecionada para a conta pessoal">
+             alt="selected profile picture for personal account">
 
     </section>
     <!--Title-->
@@ -32,42 +32,42 @@
         <div id="daySuggestion_button" class="central_button_container">
             <p>Suggestions of the Day</p>
             <img src="assets/img/suggestions_day_icon.png" height="400" width="359"
-                 alt="um icon em forma de calendário com um círculo a marcar um dia em específico">
+                 alt="an icon in the form of a calendar with a circle marking a specific day">
         </div>
         <div id="futureSuggestion_button" class="central_button_container">
             <p>Future Suggestions</p>
             <img src="assets/img/future_suggestion_icon.png" height="400" width="365"
-                 alt="um icon em forma de calendário com uma seta a apontar para a direita">
+                 alt="a calendar icon with an arrow pointing to the right">
         </div>
         <div id="friendsSuggestion_button" class="central_button_container">
             <p>Friends Suggestions</p>
             <img src="assets/img/friends_suggestions_icon.png" height="400" width="360"
-                 alt="um icon em forma de calendário com um duas pessoas e um mais">
+                 alt="an icon in the form of a calendar with two people and one more">
         </div>
         <div id="events_button" class="central_button_container">
             <p>Events</p>
-            <img src="assets/img/events_icon.png" height="320" width="400" alt="um icon em forma de bilhete de cinema">
+            <img src="assets/img/events_icon.png" height="320" width="400" alt="an icon in the form of a movie ticket">
         </div>
         <div id="myPages_button" class="central_button_container">
             <p>My Pages</p>
-            <img src="assets/img/my_pages_icon.png" height="400" width="328" alt="um icon em forma de bookmark">
+            <img src="assets/img/my_pages_icon.png" height="400" width="328" alt="an icon in the form of a bookmark">
         </div>
     </section>
     <section id="section_nav_container">
         <nav id="nav_container">
             <div class="nav_option_container" id="nav_friends_container">
                 <img src="assets/img/friends_icon.png" height="96" width="149"
-                     alt="um icon com um duas pessoas e um mais">
+                     alt="an icon with a two people and a plus sign">
                 <p>Friends</p>
             </div>
             <div class="nav_option_container" id="nav_home_container">
                 <img src="assets/img/home_icon.png" height="124" width="111"
-                     alt="um icon com a forma simplificada de um casa">
+                     alt="an icon with the simplified shape of a house">
                 <p>Home</p>
             </div>
             <div class="nav_option_container" id="nav_settings_container">
                 <img src="assets/img/settings_icon.png" height="124" width="124"
-                     alt="um icon de uma roldana">
+                     alt="an icon of a pulley">
                 <p>Settings</p>
             </div>
         </nav>

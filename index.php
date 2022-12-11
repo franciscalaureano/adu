@@ -15,7 +15,7 @@
     <h1>Welcome to</h1>
 </div>
 <div id="logo_container">
-    <img id="logo" src="assets/img/logo.png" height="330" width="341" alt="logotipo da aplicação que diz go out com gradiente amarelo de fundo">
+    <img id="logo" src="assets/img/logo.png" height="330" width="341" alt="application logo with yellow gradient background that says go out">
 </div>
 <form method="post" action="index.php" id="login_form">
     <div class="input-field">
