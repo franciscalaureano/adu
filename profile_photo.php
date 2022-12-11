@@ -41,9 +41,9 @@
                  alt="avatar 3: ilustração de um homem ruivo com cabelo rapado">
             <img id="avatar4" src="assets/img/avatar4.png" height="400" width="400"
                  alt="avatar 4: ilustração de um homem com cabelo encaracolado castanho">
-            <img id="avatar5" src="assets/img/avatar6.png" height="400" width="400"
+            <img id="avatar5" src="assets/img/avatar5.png" height="400" width="400"
                  alt="avatar 5: ilustração de um homem loiro com cabelo comprido">
-            <img id="avatar6" src="assets/img/avatar5.png" height="400" width="400"
+            <img id="avatar6" src="assets/img/avatar6.png" height="400" width="400"
                  alt="avatar 6: ilustração de uma mulher com cabelo encaracolado castanho comprido; tem uma fita azul">
         </div>
         <section class="buttons_popUp">
@@ -64,24 +64,46 @@
     })
 
     //AO SELECINAR AVATAR, APLICA CLASS E BOTÃO SELECT
-    function selected(e) {
-        e.target.classList.toggle("imgSelected");
-        console.log(this.id);
+    /*    function selected(e) {
+            e.target.classList.toggle("imgSelected");
+            console.log(this.id);
 
-        document.getElementById("default_photo").src = "assets/img/" + this.id + ".png";
+            document.getElementById("default_photo").src = "assets/img/" + this.id + ".png";
 
-        document.getElementById("default_photo").style.border = "4px solid #843D3F"
-        document.getElementById("default_photo").style.borderRadius = "500px"
+            document.getElementById("default_photo").style.border = "4px solid #843D3F"
+            document.getElementById("default_photo").style.borderRadius = "500px"
 
-        document.getElementById("select_button_popUp").style.display = "block";
-        document.getElementById("continue_button").style.display = "block";
+            document.getElementById("select_button_popUp").style.display = "block";
+            document.getElementById("continue_button").style.display = "block";
+        }
+        const buttons = document.querySelectorAll("#avatar_container > img");
+        buttons.forEach((item) => {
+            item.addEventListener("click", selected)
+        });*/
+var variavel1 = "";
+
+    var button1 = document.querySelectorAll("#avatar_container > img");
+    for (var i = 0; i < button1.length; i++) {
+        button1[i].addEventListener("click", function () {
+
+            var selectedEl1 = document.querySelector(".imgSelected");
+            if (selectedEl1) {
+                selectedEl1.classList.remove("imgSelected");
+            }
+            this.classList.add("imgSelected");
+            variavel1 = this.id;
+
+            console.log(this.id);
+            document.getElementById("default_photo").src = "assets/img/" + this.id + ".png";
+
+            document.getElementById("default_photo").style.border = "4px solid #843D3F"
+            document.getElementById("default_photo").style.borderRadius = "500px"
+
+            document.getElementById("select_button_popUp").style.display = "block";
+            document.getElementById("continue_button").style.display = "block";
+        }, false);
     }
-
-    const buttons = document.querySelectorAll("#avatar_container > img");
-    buttons.forEach((item) => {
-        item.addEventListener("click", selected)
-    });
-
+    console.log("e"+variavel1);
     //BOTÃO SELECT
     document.getElementById("select_button_popUp").addEventListener("click", function () {
         document.getElementById("photo_popUp").style.display = "none";

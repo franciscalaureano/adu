@@ -114,9 +114,7 @@
             <p>mariakikalaureano1@gmail.com</p>
         </div>
         <div class="add_button">
-            <button class="add_button" type="submit" name="submit">
-                add
-            </button>
+            <button class="add_button" type="submit" name="submit">add</button>
         </div>
         <div class="remove_friend_button">
             <img src="assets/img/cruzFilter.png" height="204" width="204" alt="cruz cinzenta"></div>
@@ -124,11 +122,34 @@
 </section>
 <section class="buttons">
     <div class="button_container">
-        <button class="skip_button" type="submit" name="submit">Skip</button>
+        <button id="skip_button" type="submit" name="submit">Skip</button>
     </div>
     <div class="button_container">
-        <button class="continue_button" type="submit" name="submit">Continue</button>
+        <button id="continue_button" type="submit" name="submit">Continue</button>
     </div>
 </section>
+<script>
+    //BOTÃO SKIP
+    document.getElementById("skip_button").addEventListener("click", function () {
+        window.location.replace("all_set.html");
+    }, true);
+
+    //BOTÃO CONTINUE
+    document.getElementById("continue_button").addEventListener("click", function () {
+        window.location.replace("all_set.html");
+    }, true);
+
+
+    //Botões com as respostas
+    function selected(e) {
+        e.target.classList.toggle("add_button_selected");
+        document.getElementById("continue_button").style.display = "block";
+    }
+    const buttons = document.querySelectorAll(".add_button button");
+    buttons.forEach((item) => {
+        item.addEventListener("click", selected)
+    });
+</script>
+
 </body>
 </html>

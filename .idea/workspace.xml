@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/add_friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/add_friends.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/all_set.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/before_starting.html" beforeDir="false" afterPath="$PROJECT_DIR$/before_starting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all_set.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all_set.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/avatar5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatar6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/avatar6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/add_friends.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/add_friends.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/habilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/habilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/profile_photo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile_photo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/habilities1.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/habilities2.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/habilities3.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities3.html" afterDir="false" />
@@ -18,15 +15,7 @@
       <change beforePath="$PROJECT_DIR$/habilities5.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/habilities6.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/habilities7.html" beforeDir="false" afterPath="$PROJECT_DIR$/habilities7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preferences.html" beforeDir="false" afterPath="$PROJECT_DIR$/preferences.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_photo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile_photo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
