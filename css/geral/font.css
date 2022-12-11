@@ -22,35 +22,40 @@
   font-family: PlayfairDisplay-SemiBold;
   src: url("../fonts/PlayfairDisplay-SemiBold");
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 @font-face {
-  font-family: Inter-Regular, sans-serif;
+  font-family: Inter;
+  font-weight: 400;
   src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 }
 @font-face {
-  font-family: Inter-Medium;
+  font-family: Inter;
+  font-weight: 500;
   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 }
 @font-face {
-  font-family: Inter-SemiBold, sans-serif;
+  font-family: Inter;
+  font-weight: 600;
   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 }
 @font-face {
-  font-family: Inter-Bold, sans-serif;
+  font-family: Inter;
+  font-weight: 700;
   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 }
 
 @font-face {
-  font-family: PlayfairDisplay-SemiBold, serif;
+  font-family: PlayfairDisplay;
   src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 }
 @font-face {
-  font-family: PlayfairDisplay-SemiBold, serif;
+  font-family: PlayfairDisplay;
   src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 }

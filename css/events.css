@@ -1,6 +1,5 @@
 /*@media only screen and (max-device-width: 826px) {*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 #arrow_back_title_container {
     display: flex;
     padding: 4vh 0 3vh 0;
