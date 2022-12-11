@@ -3,18 +3,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6vh;
+  margin-top: 4vh;
   margin-bottom: 4vh;
 }
 
 #account_title_container h1 {
   color: #843d3f;
-  font-size: 4rem;
+
+  font-family: PlayfairDisplay-Bold, serif;
+  font-weight: 700;
+  font-size: 4.4rem;
 }
 
 #account_title_container p {
-  font-size: 1.5rem;
   font-family: Inter-Medium, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+
   margin-top: 1.5vh;
 }
 
@@ -26,8 +31,10 @@
 }
 
 #signup-form label {
-  font-family: Inter-Regular, sans-serif;
+  font-family: Inter-Medium, sans-serif;
+  font-weight: 500;
   font-size: 1.3rem;
+
   padding-bottom: 1vh;
 }
 
@@ -48,8 +55,11 @@
   border: 2px solid #727276;
   border-radius: 10px;
   height: 5vh;
-  font-size: 1rem;
   padding-left: 1vw;
+
+  font-family: Inter-Medium, sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 .passwordConfirmError{
   display: none;
@@ -72,14 +82,16 @@
   width: 100%;
 
   color: #FAF5F2;
-  font-family: Inter-Regular, sans-serif;
+  font-family: Inter-Medium, sans-serif;
+  font-weight: 500;
   font-size: 1.8rem;
 
   cursor: pointer;
 }
 #signup_submit_container p{
   color: #121213;
-  font-family: Inter-Regular, sans-serif;
+  font-family: Inter-Medium, sans-serif;
+  font-weight: 500;
   font-size: 1.3rem;
 
   margin-top: 1.5vh;
@@ -88,7 +100,10 @@
 #signup_submit_container a{
   text-decoration: none;
   color: #843D3F;
-  font-weight: 600;
+
+  font-family: Inter-Bold, sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 
 #line1 {

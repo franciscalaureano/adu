@@ -6,17 +6,22 @@
 }
 #title_container h1 {
     color: #843d3f;
-    font-size: 4rem;
+
+    font-family: PlayfairDisplay-Bold, serif;
+    font-weight: 700;
+    font-size: 4.4rem;
 }
 #title_container p{
-    width: 25rem;
+    width: 100%;
     text-align: center;
     margin-top: 1rem;
 
-    font-size: 1.2rem;
+    font-family: Inter-Medium, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 #allSet_container{
-    padding: 25vh 10vw 0 10vw;
+    padding: 29vh 10vw 0 10vw;
 
     display: flex;
     flex-direction: column;
@@ -30,7 +35,8 @@
     width: 100%;
 
     color: #FAF5F2;
-    font-family: Inter-Regular, sans-serif;
+    font-family: Inter-Medium, sans-serif;
+    font-weight: 500;
     font-size: 1.8rem;
 
     cursor: pointer;

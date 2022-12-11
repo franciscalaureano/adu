@@ -1,3 +1,6 @@
+body {
+    overflow-y: hidden;
+}
 #event {
     /*margin-top: 5vh;*/
 }
@@ -60,16 +63,34 @@
 }
 
 #seta_descer {
-    position: fixed;
+    position: absolute;
     margin-left: -8vw;
-    margin-top: 72vh;
+    top: 71.5vh;
+    /*border: red 2px solid;*/
+}
+
+#seta_descer2{
+    position: absolute;
+    display: none;
+    margin-left: -8vw;
+    top: 71.5vh;
+    /*border: yellow 2px solid;*/
 }
 
 #seta_subir {
-    position: fixed;
+    position: absolute;
     margin-left: -8vw;
-    margin-top: 72vh;
+    top: 65vh;
     display: none;
+    /*border: orange 2px solid;*/
+}
+
+#seta_subir2 {
+    position: absolute;
+    margin-left: -8vw;
+    top: 71.5vh;
+    display: none;
+    /*border: green 2px solid;*/
 }
 
 #info_card_event {
@@ -146,7 +167,8 @@
 }
 
 #descricao h3 {
-    padding-top: 5vh;
+    padding-top: 1vh;
+    margin-top: 3vh;
 }
 
 #descricao p {
@@ -154,7 +176,8 @@
 }
 
 #mapa h3 {
-    padding-top: 5vh;
+    padding-top: 1vh;
+    margin-top: 3vh;
     padding-bottom: 2vh;
 }
 
@@ -196,15 +219,16 @@
 }
 
 #mais_informacao h3 {
-    padding-top: 5vh;
+    padding-top: 4vh;
     padding-bottom: 2vh;
 }
 
 #mais_informacao p {
-    padding-bottom: 4vh;
+    padding-bottom: 100vh;
     color: black;
 }
 
+/*
 #section_nav_container{
     position: fixed;
     bottom: 0;
@@ -214,7 +238,7 @@
     display: flex;
     flex-direction: row;
 
-    /* NavigatorSimbra */
+    !* NavigatorSimbra *!
     filter: drop-shadow(0 -2px 7px rgba(18, 18, 19, 0.2));
 }
 .nav_option_container{
@@ -252,4 +276,4 @@
 
 #nav_home_container p{
     color: #FAF5F2;
-}
+}*/

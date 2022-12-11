@@ -26,7 +26,10 @@
 
 #account_title_container h1 {
     color: #843d3f;
-    font-size: 3rem;
+
+    font-family: PlayfairDisplay-Bold, serif;
+    font-weight: 700;
+    font-size: 2.8rem;
 }
 
 #central_part_container {
@@ -55,9 +58,12 @@
 
 .central_button_container p {
     color: #843d3f;
-    font-size: 1.4rem;
-    font-weight: 600;
     margin-bottom: 1.5vh;
+
+
+    font-family: Inter-SemiBold, sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .central_button_container img {
@@ -103,10 +109,12 @@
 .nav_option_container p{
     color: #121213;
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 400;
     margin-bottom: 1vh;
     background-color: transparent;
+
+    font-family: Inter-Regular, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 #nav_home_container p{

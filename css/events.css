@@ -9,9 +9,9 @@
 
 #arrow_back_title_container h1 {
     color: #843d3f;
-    font-family: Playfair Display, serif;
+    font-family: PlayfairDisplay-Bold, serif;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 #button_arrow_back {
@@ -35,18 +35,21 @@
     border-radius: 5px;
     width: 15vw;
     height: 5vw;
-    font-family: Inter, sans-serif;
+
+    font-family: Inter-SemiBold, sans-serif;
     font-weight: 600;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
+
     cursor: pointer;
 }
 
 #input_search {
     background-color: #FAF5F2;
     color: #727276;
-    font-family: Inter, sans-serif;
+
+    font-family: Inter-SemiBold, sans-serif;
     font-weight: 600;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     outline: none;
 }
 
@@ -105,11 +108,13 @@
 }
 
 .text_date_events_list {
-    font-family: Inter, sans-serif;
+    font-family: Inter-SemiBold, sans-serif;
     font-weight: 600;
+    font-size: 1.3rem;
+
     box-shadow: 0 2px 15px 1px #dfdad8;
     padding: 10px 10px;
-    width: 17vw;
+    width: 25vw;
     text-align: center;
     margin: -3vw 20px;
     position: absolute;
@@ -118,25 +123,29 @@
 .title_event_friends_photos {
     display: flex;
     justify-content: space-between;
-    padding: 25px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
 }
 
 .title_event_events_list {
-    font-family: Inter, sans-serif;
+    font-family: Inter-SemiBold, sans-serif;
     font-weight: 600;
     font-size: 1.4rem;
+
     width: 60%;
 }
 
 .text_hours_events_list {
-    font-family: Inter, sans-serif;
+    font-family: Inter-Regular, sans-serif;
     font-weight: 400;
+    font-size: 1rem;
+
     padding: 0 20px 0 20px;
 }
 
 .text_events_list {
-    font-family: Inter, sans-serif;
+    font-family: Inter-Regular, sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .text_events_list_accessible {

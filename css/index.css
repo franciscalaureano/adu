@@ -4,11 +4,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 14vh 0 4vh 0;
+    padding: 4vh 0 4vh 0;
 }
 #account_title_container h1 {
     color: #843d3f;
-    font-size: 4rem;
+
+    font-family: PlayfairDisplay-Bold, serif;
+    font-weight: 700;
+    font-size: 4.4rem;
 }
 #logo_container{
     display: flex;
@@ -18,6 +21,8 @@
 #logo{
     width: 20rem;
     height: auto;
+
+    margin-bottom: 15vh;
 }
 #login_form{
     padding: 4vh 10vw 0 10vw;
@@ -26,8 +31,10 @@
     flex-direction: column;
 }
 #login_form label {
-    font-family: Inter-Regular, sans-serif;
+    font-family: Inter-Medium, sans-serif;
+    font-weight: 500;
     font-size: 1.3rem;
+
     padding-bottom: 1vh;
 }
 .input-field {
@@ -39,8 +46,11 @@
     border: 2px solid #727276;
     border-radius: 10px;
     height: 5vh;
-    font-size: 1rem;
     padding-left: 1vw;
+
+    font-family: Inter-Medium, sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .emailError, .passwordError{
@@ -64,12 +74,14 @@
     width: 100%;
 
     color: #FAF5F2;
-    font-family: Inter-Regular, sans-serif;
+    font-family: Inter-Medium, sans-serif;
+    font-weight: 500;
     font-size: 1.8rem;
 }
 #login_submit_container p{
     color: #121213;
-    font-family: Inter-Regular, sans-serif;
+    font-family: Inter-Medium, sans-serif;
+    font-weight: 500;
     font-size: 1.3rem;
 
     margin-top: 1.5vh;
@@ -78,5 +90,8 @@
 #login_submit_container a{
     text-decoration: none;
     color: #843D3F;
-    font-weight: 600;
+
+    font-family: Inter-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
 }
