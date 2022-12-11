@@ -1,0 +1,163 @@
+/*@media only screen and (max-device-width: 826px) {*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+#arrow_back_title_container {
+    display: flex;
+    padding: 4vh 0 3vh 0;
+    justify-content: center;
+}
+
+#arrow_back_title_container h1 {
+    color: #843d3f;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#button_arrow_back {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 10vw;
+    top: 15.5vh;
+}
+
+#filter_search {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw 4vh 10vw;
+}
+
+#button_filter {
+    background-color: #FAF5F2;
+    color: #121213;
+    border: 2px solid #121213;
+    border-radius: 5px;
+    width: 15vw;
+    height: 5vw;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+#input_search {
+    background-color: #FAF5F2;
+    color: #727276;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    outline: none;
+}
+
+#button_search, #input_search {
+    border: none;
+}
+
+#button_search {
+    padding: 5px 15px 0 15px;
+    cursor: pointer;
+}
+
+#search {
+    background-color: #FAF5F2;
+    color: #121213;
+    border: 2px solid #121213;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 57vw;
+}
+
+#main_events_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event_buttons_heart_go {
+    display: flex;
+    margin-bottom: 5.5vw;
+}
+
+#event_walk, #event_columbus, #event_tauc {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #DFDAD8;
+    width: 70vw;
+    cursor: pointer;
+}
+
+.buttons_heart_go_events_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 4vw;
+}
+
+.image_events_list {
+    width: 70vw;
+    border-radius: 10px 10px 0 0;
+}
+
+.text_date_events_list {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    box-shadow: 0 2px 15px 1px #dfdad8;
+    padding: 10px 10px;
+    width: 17vw;
+    text-align: center;
+    margin: -3vw 20px;
+    position: absolute;
+}
+
+.title_event_friends_photos {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 20px 20px;
+}
+
+.title_event_events_list {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    width: 60%;
+}
+
+.text_hours_events_list {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    padding: 0 20px 0 20px;
+}
+
+.text_events_list {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.text_events_list_accessible {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px 15px 20px;
+    border-radius: 10px;
+}
+.button_heart, .button_go{
+    cursor: pointer;
+}
+#div_event_columbus_buttons_heart_go{
+    display: flex;
+}
+
+/*#div_seta_descer{
+    width: 100%;
+}*/
+#seta_descer {
+    position: fixed;
+    /*padding: 0 1.5vh;*/
+    margin-left: 2vw;
+    /*margin-top: 71vh;*/
+}
+
