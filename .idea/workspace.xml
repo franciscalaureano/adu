@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/libraries/p5.dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/libraries/p5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/libraries/p5.sound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/libraries/p5.speech.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/speechRecognitionEvents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/speechRecognitionHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/speechRecognitionInfoEvent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/info_event.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile_photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/info_event.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/info_event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/info_eventCopia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/speechRecognition.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +82,7 @@
       <workItem from="1670347676890" duration="2677000" />
       <workItem from="1670601513309" duration="732000" />
       <workItem from="1670602784043" duration="25834000" />
-      <workItem from="1670755223650" duration="20220000" />
+      <workItem from="1670755223650" duration="23902000" />
     </task>
     <servers />
   </component>

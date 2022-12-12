@@ -10,6 +10,12 @@ session_start();
     <link rel="stylesheet" href="css/geral/font.css"/>
     <link rel="stylesheet" href="css/geral.css"/>
     <link rel="stylesheet" href="css/home.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="js/libraries/p5.speech.js"></script>
+    <script src="js/speechRecognitionHome.js"></script>
+
     <title>Home</title>
 </head>
 <body>

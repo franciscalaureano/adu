@@ -7,12 +7,38 @@ document.getElementById("button_arrow_back").addEventListener("click", function 
 var seta_descer = document.getElementById('seta_descer');
 seta_descer.addEventListener('click', function () {
     const seta_subir = document.getElementById("seta_subir").style.display = "block";
+
+    document.getElementById("seta_descer2").style.display = "block";
+    document.getElementById("seta_subir2").style.display = "none";
+
     seta_descer = document.getElementById("seta_descer").style.display = "none";
 })
 
 seta_subir.addEventListener('click', function () {
     seta_subir = document.getElementById("seta_subir").style.display = "none";
+    document.getElementById("seta_descer2").style.display = "none";
+    document.getElementById("seta_subir2").style.display = "none";
+
     seta_descer = document.getElementById("seta_descer").style.display = "block";
+})
+
+var seta_descer2 = document.getElementById("seta_descer2");
+seta_descer2.addEventListener('click', function () {
+    document.getElementById("seta_descer").style.display = "none";
+    document.getElementById("seta_subir").style.display = "none";
+    document.getElementById("seta_descer2").style.display = "none";
+
+    document.getElementById("seta_subir2").style.display = "block";
+})
+
+var seta_subir2 = document.getElementById("seta_subir2");
+seta_subir2.addEventListener('click', function () {
+    document.getElementById("seta_descer").style.display = "none";
+    document.getElementById("seta_subir2").style.display = "none";
+    document.getElementById("seta_descer2").style.display = "block";
+
+    document.getElementById("seta_subir").style.display = "block";
+
 })
 
 //MUDAR A IMAGEM DO ICON GO!

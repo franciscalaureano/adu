@@ -61,8 +61,6 @@ music_button.addEventListener("click", function () {
     console.log("funcionou");
     music_button.classList.toggle("filterButtonSelected");
 
-    let input = document.getElementById('input_search').value
-    input = input.toLowerCase();
     let div_event_columbus_buttons_heart_go = document.getElementById('div_event_columbus_buttons_heart_go')
     let image_event_walk = document.getElementById('image_event_walk')
     let date_event_walk = document.getElementById('date_event_walk')
