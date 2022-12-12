@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -131,7 +134,6 @@ var variavel1 = "";
 
 
 </script>
-
 
 </body>
 </html>

@@ -1,3 +1,30 @@
+<?php
+session_start();
+?>
+<?php
+if (isset($_POST['submit'])) {
+
+    $emailLogin = $_POST['login-email'];
+    $passwordLogin = $_POST['login-password'];
+
+    if ($emailLogin != "" && $passwordLogin != "") {
+        if (($emailLogin == $_SESSION['email']) && ($passwordLogin == $_SESSION['password'])) {
+            header('Location: home.php');
+        } else if (($emailLogin == $_SESSION['email']) && ($passwordLogin != $_SESSION['password'])) {
+            //password errada
+            echo '<script type="javascript">document.getElementsByClassName("passwordError")[0].style.display = "block"</script>';
+        } else if (($emailLogin != $_SESSION['email']) && ($passwordLogin == $_SESSION['password'])) {
+            //email errado
+            echo '<script type="javascript">document.getElementsByClassName("emailError")[0].style.display = "block"</script>';
+        } else if(($emailLogin != $_SESSION['email'])&& ($passwordLogin != $_SESSION['password'])){
+            echo '<script type="javascript">document.getElementsByClassName("passwordError")[0].style.display = "block"</script>';
+            echo '<script type="javascript">document.getElementsByClassName("emailError")[0].style.display = "block"</script>';
+        }
+    } else {
+        echo "Something is wrong. Try again!";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,30 +83,3 @@
 </div>
 </body>
 </html>
-
-<?php
-session_start();
-
-if (isset($_POST['submit'])) {
-
-    $emailLogin = $_POST['login-email'];
-    $passwordLogin = $_POST['login-password'];
-
-    if ($emailLogin != "" && $passwordLogin != "") {
-        if (($emailLogin == $_SESSION['email']) && ($passwordLogin == $_SESSION['password'])) {
-            header('Location: home.php');
-        } else if (($emailLogin == $_SESSION['email']) && ($passwordLogin != $_SESSION['password'])) {
-            //password errada
-            echo '<script>document.getElementsByClassName("passwordError")[0].style.display = "block"</script>';
-        } else if (($emailLogin != $_SESSION['email']) && ($passwordLogin == $_SESSION['password'])) {
-            //email errado
-            echo '<script>document.getElementsByClassName("emailError")[0].style.display = "block"</script>';
-        } else if(($emailLogin != $_SESSION['email'])&& ($passwordLogin != $_SESSION['password'])){
-            echo '<script>document.getElementsByClassName("passwordError")[0].style.display = "block"</script>';
-            echo '<script>document.getElementsByClassName("emailError")[0].style.display = "block"</script>';
-        }
-    } else {
-        echo "Something is wrong. Try again!";
-    }
-}
-?>

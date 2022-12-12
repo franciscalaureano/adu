@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,12 +21,10 @@
         <!--Account Button-->
         <img id="account_button" src="assets/img/profile_photo.png" height="116" width="116"
              alt="selected profile picture for personal account">
-
     </section>
     <!--Title-->
     <div id="account_title_container">
         <?php
-        session_start();
         echo "<h1>Hi ".$_SESSION['name']."!</h1>"
         ?>
     </div>

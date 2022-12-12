@@ -1,3 +1,35 @@
+<?php
+session_start();
+?>
+<?php
+if (isset($_POST['submit'])) {
+
+    $firstName = $_POST['first-name'];
+    $lastName = $_POST['last-name'];
+
+    $email = $_POST['signup-email'];
+    $password = $_POST['signup-password'];
+    $confirmPassword = $_POST['signup-confirm-password'];
+
+    $phoneNumber = $_POST['phone-number'];
+    $birthDate = $_POST['birth-date'];
+
+    if ($firstName != "" && $lastName != "" && $email != "" && $password != "" && $confirmPassword != "" && $birthDate != "") {
+        if ($password == $confirmPassword) {
+            $_SESSION['email'] = $_POST['signup-email'];
+            $_SESSION['password'] = $_POST['signup-password'];
+
+            $_SESSION['name'] = $_POST['first-name'];
+
+            //echo '<script>console.log('.$_SESSION["email"].')</script>';
+            header('Location: before_starting.html');
+        } else {
+            //echo "<script type='javascript'>alert('Your password is to corresponding!');";
+            echo '<script type="javascript">document.getElementsByClassName("passwordConfirmError")[0].style.display = "block"</script>';
+        }
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,39 +138,8 @@
 
     <div id="signup_submit_container">
         <button id="signup_submit_button" type="submit" form="signup-form" name="submit" value="signup">Create Account</button>
-        <p>Already have an account? <a href="index.php">Login </a>instead!</p>
+        <p>Already have an account? <a href="index.php">Login</a> instead!</p>
     </div>
 </section>
 </body>
 </html>
-
-<?php
-
-session_start();
-
-if (isset($_POST['submit'])) {
-
-    $firstName = $_POST['first-name'];
-    $lastName = $_POST['last-name'];
-
-    $email = $_POST['signup-email'];
-    $password = $_POST['signup-password'];
-    $confirmPassword = $_POST['signup-confirm-password'];
-
-    $phoneNumber = $_POST['phone-number'];
-    $birthDate = $_POST['birth-date'];
-
-    if ($firstName != "" && $lastName != "" && $email != "" && $password != "" && $confirmPassword != "" && $birthDate != "") {
-        if ($password == $confirmPassword) {
-            $_SESSION['email'] = $_POST['signup-email'];
-            $_SESSION['password'] = $_POST['signup-password'];
-
-            $_SESSION['name'] = $_POST['first-name'];
-
-            echo '<script>console.log('.$_SESSION["email"].')</script>';
-            header('Location: before_starting.html');
-        } else {
-            echo '<script>document.getElementsByClassName("passwordConfirmError")[0].style.display = "block"</script>';
-        }
-    }
-}

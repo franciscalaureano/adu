@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb0b996-2883-4ade-82de-d2ae6474afd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/info_event.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/info_event.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/info_eventCopia.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/info_eventCopia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/info_event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile_photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
       <workItem from="1670347676890" duration="2677000" />
       <workItem from="1670601513309" duration="732000" />
       <workItem from="1670602784043" duration="25834000" />
-      <workItem from="1670755223650" duration="17953000" />
+      <workItem from="1670755223650" duration="20220000" />
     </task>
     <servers />
   </component>
@@ -90,11 +94,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670758284598">
+    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670787147858">
       <screen x="0" y="25" width="1440" height="823" />
     </state>
     <state x="708" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1670706615822" />
-    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.823@0.25.1440.823" timestamp="1670758284598" />
+    <state x="708" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.823@0.25.1440.823" timestamp="1670787147858" />
     <state x="560" y="371" key="NewPhpFileDialog" timestamp="1670706784123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
